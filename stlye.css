@@ -1,0 +1,156 @@
+body {
+  font-family: sans-serif;
+  background: #8E0E00;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8E0E00, #1F1C18);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#container {
+  height: 525px;
+  width: 320px;
+  margin: 0px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+h1 {
+  background: white;
+  color: black;
+  margin: 0;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  font-size: 28px;
+  text-align: center;
+  font-weight: normal;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+p {
+  padding-left: 10%;
+}
+
+form input[type="text"] {
+  width=10px;
+}
+
+input {
+  padding-left: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+#billamt {
+  font-size: 16px;
+  color: #red;
+  background-color: white;
+  width: 60%;
+  padding: 5px 0px 8px 15px;
+}
+
+#billamt:focus {
+  border: 2px solid red;
+  outline: none;
+}
+
+#peopleamt {
+  width: 16%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 14%;
+  color: #red;
+  background-color: white;
+  font-size: 14px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+}
+
+.dollarSign {
+  display: inline;
+}
+
+#serviceQual {
+  padding: 10px 20px 10px 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+#serviceQual:focus {
+  outline: none;
+}
+
+select {
+  -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: white;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  color: black;
+  outline: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#totalTip {
+  color: black;
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#totalTip:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+  padding: 0px 0px 10px 0px;
+}
+
+#totalTip small {
+  margin: 5px 0px;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
